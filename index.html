@@ -19,6 +19,7 @@
 
 <body>
     <header>
+        <div class="container">
 
         <img src="img/blueplanetwide.jpg" class="img-fluid" alt="Neptune Planet">
         <h1 class="display-1 text-center">Laser Device Analyzes Out of Space</h1>
@@ -51,28 +52,26 @@
             finding certain materials use as survival and
             may lead to findings of <em>extraterrestrial life.</em></strong>
         </p>
+    </div>
     </header>
 
 
-    <main>
-        <section class="my-5" id="orbitrap">
-            <article class="border border-secondary border-2">
-                <img src="img/laserorbt.jpg" class="img-fluid rounded-pill" alt="Obitrap Device">
+    <main class="container">
+        <section class="my-4 row" id="orbitrap">
+            <article class="col-lg my-2 py-2 mx-lg-1 px-2 border border-secondary border-2">
+                
                 <p class="lead">The Orbitrap analyising certain material can mean:
                 </p>
                 <ul >
                     <li>Understanding more of the environment in planet</li>
                     <li>Can help find certain organism if found</li>
                     <li>Find similarities with Earth</li>
-
                 </ul>
+                <img src="img/laserorbt.jpg" class="img-fluid rounded-pill" alt="Obitrap Device">
             </article>
-        </section>
-
-
-
-        <section class="my-5" id="university">
-            <article class="border border-secondary border-2">
+        
+            <article class="col-lg my-2 py-2 mx-lg-1 px-2 border border-secondary border-2">
+                
                 <h1 class="display-6 text-center">The University of Maryland Team </h1>
                 <p class="lead"> The University of Maryland team developed an instrument to help identify compositions
                     of materials
@@ -90,14 +89,15 @@
                     the moon in the next missions NASA has next. <strong class="text-decoration-underline fw-normal">The Orbitrap is a new device opening the door for
                     greater inventions for geochemistry and
                     astrobiology that may lead to finding signs of life as well as planet materials.</strong></p>
-
-                <img src="img/largeplanet.jpg" class="img-fluid rounded-pill" alt="Exoplanet Proxima b">
+                    <img src="img/largeplanet.jpg" class="img-fluid rounded-pill" alt="Exoplanet Proxima b">
                 </p>
             </article>
         </section>
     </main>
 
-    <aside id="contact">
+    <aside class="container" id="contact">
+        <div class="row align-items-center">
+            <div class="col-lg-4">
         <form>
             <label for="name">Name: </label>
             <input type="text" id="name" name="name">
@@ -121,9 +121,12 @@
             <input type="submit" value="Submit">
 
 
-            <footer>
+            <footer class="text-center my-5 pt-3 border-top">
                 &copy; 2023 Orbitrap
             </footer>
+            </form>
+            </div>
+            </div>
     </aside>
 
 
